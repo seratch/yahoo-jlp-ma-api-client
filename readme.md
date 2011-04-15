@@ -39,7 +39,7 @@ http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html
 
     YahooMAClient ma = new YahooMAClient(appid);
     String sentence = "庭には二羽ニワトリがいる。";
-    List<YahooMAToken> result = ma.analyze(sentence);
+    List<YahooMAToken> resultList = ma.analyze(sentence);
     for (YahooMAToken token : resultList) {
         String result = "[表記:" + token.getSurface() 
                       + ",読み仮名:" + token.getReading()
