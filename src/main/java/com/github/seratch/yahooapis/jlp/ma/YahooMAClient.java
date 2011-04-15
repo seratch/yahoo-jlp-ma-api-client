@@ -116,7 +116,7 @@ public class YahooMAClient {
 		conn.setConnectTimeout(3000);
 		conn.setReadTimeout(10000);
 		conn.setRequestProperty("User-Agent",
-				"Yahoo! MA HTTP Client (+https://github.com/seratch/yahoo-ma-api-client/)");
+				"Yahoo! MA API Client (+https://github.com/seratch/yahoo-jlp-ma-api-client/)");
 		conn.setRequestMethod("POST");
 		OutputStream os = null;
 		OutputStreamWriter writer = null;
