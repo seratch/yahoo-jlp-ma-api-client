@@ -20,7 +20,7 @@ public class YahooMATokenTest {
 	public void toString_A$() throws Exception {
 		YahooMAToken token = new YahooMAToken("a", "b", "c", "d", "e");
 		String actual = token.toString();
-		String expected = "[表記:a,読み仮名:b,基本形表記:c,全情報:d,品詞:e]";
+		String expected = "[表記:a,読み仮名:b,基本形表記:c,品詞:e,全情報:d]";
 		assertEquals(expected, actual);
 	}
 

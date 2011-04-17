@@ -20,6 +20,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -126,9 +127,9 @@ public class YahooMAClient {
 			writer = new OutputStreamWriter(os);
 			requestParameters.put("sentence", sentence);
 			for (String key : requestParameters.keySet()) {
-				writer.append(key);
+				writer.append(URLEncoder.encode(key,"UTF-8"));
 				writer.append("=");
-				writer.append(requestParameters.get(key).toString());
+				writer.append(URLEncoder.encode(requestParameters.get(key).toString(),"UTF-8"));
 				writer.append("&");
 			}
 		} finally {
