@@ -8,7 +8,7 @@ http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html
 
 ### ダウンロード
 
-    ./download/yahoo-jlp-ma-api-client-1.0.jar
+    ./download/yahoo-jlp-ma-api-client-1.1.jar
 
 ### Maven
 
@@ -30,7 +30,7 @@ http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html
       <dependency>
         <groupId>com.github.seratch</groupId>
         <artifactId>yahoo-jlp-ma-api-client</artifactId>
-        <version>1.0</version>
+        <version>1.1</version>
       </dependency>
       ...
     </dependencies>
