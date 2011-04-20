@@ -37,7 +37,6 @@ http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html
 
 ## 実装サンプル
 
-``` java
     YahooMAClient ma = new YahooMAClient(appid);
     String sentence = "庭には二羽ニワトリがいる。";
     List<YahooMAToken> resultList = ma.analyze(sentence);
@@ -57,4 +56,3 @@ http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html
     // [表記:が,読み仮名:が,基本形表記:が,品詞:助詞]
     // [表記:いる,読み仮名:いる,基本形表記:いる,品詞:動詞]
     // [表記:。,読み仮名:。,基本形表記:。,品詞:特殊]
-```
