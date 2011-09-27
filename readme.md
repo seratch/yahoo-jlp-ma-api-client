@@ -2,37 +2,26 @@
 
 Yahoo!デベロッパーネットワーク 日本語形態素解析APIのJavaクライアント実装です。
 
-http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html
+  [http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html](http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html)
 
 ## インストール方法
-
-### ダウンロード
-
-    ./download/yahoo-jlp-ma-api-client-1.1.jar
 
 ### Maven
 
     <repositories>
-      ...
       <repository>
-        <id>yahoo-jlp-ma-api-client-releases</id>
-        <url>https://github.com/seratch/yahoo-jlp-ma-api-client/raw/master/mvn-repo/releases</url>
+        <id>seratch.github.com releases</id>
+        <name>seratch.github.com releases</name>
+        <url>http://seratch.github.com/mvn-repo/releases</url>
       </repository>
-      <repository>
-        <id>yahoo-jlp-ma-api-client-snapshots</id>
-        <url>https://github.com/seratch/yahoo-jlp-ma-api-client/raw/master/mvn-repo/snapshots</url>
-      </repository>
-      ...
     </repositories>
 
     <dependencies>
-      ...
       <dependency>
         <groupId>com.github.seratch</groupId>
         <artifactId>yahoo-jlp-ma-api-client</artifactId>
         <version>1.1</version>
       </dependency>
-      ...
     </dependencies>
 
 ## 実装サンプル
@@ -56,3 +45,5 @@ http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html
     // [表記:が,読み仮名:が,基本形表記:が,品詞:助詞]
     // [表記:いる,読み仮名:いる,基本形表記:いる,品詞:動詞]
     // [表記:。,読み仮名:。,基本形表記:。,品詞:特殊]
+ 
+
